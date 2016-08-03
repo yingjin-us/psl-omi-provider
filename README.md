@@ -33,8 +33,17 @@ Toolchain Setup
 
 PSRP requires the following packages:
 
+Ubuntu 14.04:
+
 ```sh
 sudo apt-get install libpam0g-dev libssl-dev libcurl4-openssl-dev
+```
+
+Mac OS X 10.11:
+
+```sh
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install pkg-config
 ```
 
 Also install [PowerShell][] from the latest release per their instructions.
